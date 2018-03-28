@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>backend</title>
+    <meta charset="UTF-8" name = "viewpoint">
+    <meta content="width-device-width,initial-scale=1.0, maximum-scale =1.0, user-scalable = 0" name="viewpoint">
+    <link href = "css/About.css" type = "text/css" rel = "stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src ="images/2018-03-27-130222.jpg">
+      <h1>My Back-end Projects</h1>
+    </header>
+    <div class = "menuPictures">
+    <nav>
+      <div class = "handle">Menu</div>
+        <ul>
+        <a href="index.html"><li>home</li></a>
+        <a href="About.html"><li>About</li></a>
+        <a href="frontend.html"><li>frontend-projects</li></a>
+        <a href="https://my.indeed.com/resume" target="_blank"><li>CV</li></a>
+      </ul>
+    </div>
+    </nav>
+  </div>
+    <section>
+        The following are my back-end projets.
+        They are projects i have completed with CodeX.<br >
+        <img src="images/coming-soon_3.jpg" alt="coming soon">
+    </section>
+    <script>
+        $(".handle").on('click', function(){
+          $('nav ul').toggleClass('show');
+        });
+    </script>
+    <div class = "pictureCnter">
+      <ul>
+        <a href = "mailto:busisile.box@gmail.com"><li><img src ="images/gmail.jpeg"></li></a>
+        <a href = "https://github.com/Busisile-Zilwa2601" target="_blank"><li><img src = "images/github-256-black.png"></li></a>
+      </ul>
+    </div>
+    <footer>
+        <p>This portfolio was created by Busisile Zilwa.<p>
+        <p>A coder at CodeX.</p>
+      <!--  <p>for more information: busisile.box@gmail.com</p> -->
+    </footer>
+
+  </body>
+</html>

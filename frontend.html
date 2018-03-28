@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>frontend</title>
+    <meta charset="UTF-8" name = "viewpoint">
+    <meta content="width-device-width,initial-scale=1.0, maximum-scale =1.0, user-scalable = 0" name="viewpoint">
+    <link href = "css/About.css" type = "text/css" rel = "stylesheet">
+    <link href = "css/frontend.css" type = "text/css" rel = "stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src ="images/2018-03-27-130222.jpg">
+      <h1>My Front-end Projects</h1>
+    </header>
+    <nav>
+      <div class = "handle">Menu</div>
+      <ul>
+        <a href="index.html"><li>home</li></a>
+        <a href="About.html"><li>About</li></a>
+        <a href="backend.html"><li>backend-projects</li></a>
+        <a href="https://my.indeed.com/resume" target="_blank"><li>CV</li></a>
+      </ul>
+    </nav>
+    <section>
+        The following are my front-end projets.
+        They are projects i have completed with CodeX.
+        Each was done in a duration of 2-5 days.
+        In the process of building them, i have learned very much about front end.
+    </section>
+    <script>
+        $(".handle").on('click', function(){
+          $('nav ul').toggleClass('show');
+        });
+    </script>
+    <div class = "projectLinks navSpacing linkColor">
+    <nav>
+      <ul>
+        <a href="https://busisile-zilwa2601.github.io/basic-webpage/" target="_blank"><li><figure><img src="images/Screenshot from 2018-03-27 21-12-09.png" alt="landing page"><figcaption>landing page</figcaption></figure></li></a>
+        <a href="https://busisile-zilwa2601.github.io/basic-webpage/My%20basic%20webpage.html" target="_blank"><li><figure><img src="images/Screenshot from 2018-03-27 21-13-20.png" alt="My Webpage"><figcaption>My Webpage</figcaption></figure></li></a>
+        <a href="https://busisile-zilwa2601.github.io/basic-webpage/My%20skeleton%20webpage.html" target="_blank"><li><figure><img src="images/Screenshot from 2018-03-27 21-15-29.png" alt="Using Skeleton"><figcaption>Using Skeleton</figcaption></figure></li></a>
+        <a href="https://busisile-zilwa2601.github.io/bootcamp-tests/" target="_blank"><li><figure><img src="images/Screenshot from 2018-03-27 21-17-08.png" alt="Unit Testing"><figcaption>Unit Testing</figcaption></figure></li></a>
+      </ul>
+    </nav>
+  </div>
+    <div class = "pictureCnter">
+      <ul>
+        <a href = "mailto:busisile.box@gmail.com"><li><img src ="images/gmail.jpeg"></li></a>
+        <a href = "https://github.com/Busisile-Zilwa2601" target="_blank"><li><img src = "images/github-256-black.png"></li></a>
+      </ul>
+    </div>
+    <footer>
+        <p>This portfolio was created by Busisile Zilwa.<p>
+        <p>A coder at CodeX.</p>
+      <!--  <p>for more information: busisile.box@gmail.com</p> -->
+    </footer>
+  </body>
+</html>

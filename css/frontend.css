@@ -1,0 +1,35 @@
+.projectLinks nav ul{
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+.navSpacing nav ul li{
+    display: inline-block;
+    padding: 30px 10px;
+
+    text-align: center;
+}
+nav ul li img{
+  height: 200px;
+  width: 150px;
+}
+figcaption{
+  text-align: center;
+  font-size: 90%;
+}
+.linkColor a{
+  color: black;
+}
+nav ul li:hover{
+  background-color: white;
+  color: inherit;
+  box-sizing: border-box;
+}
+@media(max-width: 580px){
+  .navSpacing nav ul{
+    max-height: 150em;
+  }
+  nav ul li img{
+    
+  }
