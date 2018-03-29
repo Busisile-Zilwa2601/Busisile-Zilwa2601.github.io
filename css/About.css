@@ -90,7 +90,7 @@ nav ul li:hover{
   text-align: left;
   margin: 0 auto;
 }
-@media(max-width: 580px){
+@media screen and (max-width: 580px){
   nav ul{
     max-height: 0;
   }
@@ -107,7 +107,4 @@ nav ul li:hover{
   .handle{
     display: block;
   }
-  /*.handle:hover nav ul li{
-    h
-  }*/
 }

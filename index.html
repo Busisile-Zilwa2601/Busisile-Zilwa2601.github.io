@@ -4,11 +4,15 @@
 		<title>Busisile Zilwa Portifolio</title>
 		<meta charset="utf-8">
 		<style type="text/css">
+			html{height: 100%}
 			body{
-				height: 100%;
 				margin: 0;
 				padding: 0;
 				background-image: url("images/professional-portfolio-background-3.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 100%;
+				background-position: center;
 			}
 			footer{
 				text-align: center;
@@ -51,11 +55,21 @@
 			padding: 20px 30px;
 			}
 			/* Larger than mobile */
-			@media screen and(max-width: 375px) {
+			@media screen (min-width: 300px) {
 				h2{
 					font-size: 100px;
-				}
+					}
+					body{
+						margin: 0;
+						padding: 0;
+						background-image: url("images/professional-portfolio-background-3.jpg");
+						background-repeat: no-repeat;
+						background-size: cover;
+						height: 100%;
+						background-position: center;
+					}
 			}
+			/*end*/
 			a{
 				text-decoration: none;
 			}
