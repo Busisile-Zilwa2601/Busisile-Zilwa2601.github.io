@@ -5,27 +5,30 @@
 		<meta charset="utf-8" name = "viewport" content="width=device-width, initial-scale=1.0">
 		<style type="text/css">
 			html, body{
-				background-image: url("images/professional-portfolio-background-3.jpg");
-				background-repeat: no-repeat;
-				background-size: 100% 100vh;
-				background-position:relative;
+					height: 100vh;
+					margin: 0;
+					padding: 0;
 			}
-			footer{
-				text-align: center;
+			header{
+				padding:8px;
+        margin-bottom:7px;
+        background-color: #33b5e5;
+        color: #ffffff;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+				text-align: left;
 				font-size: 75%;
-				color: white;
 			}
 			.post{
+			background-image: url("images/images.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position:relative;
 			width: 100%;
-			height: 80vh;
+			height: inherit;
+			margin: 0;
 			position: relative;
+			position: cover;
 			cursor: normal;
-			}
-
-			.post img{
-			display: block;
-			width:100%;
-			height:100vh;
 			}
 
 			.post-s{
@@ -46,28 +49,39 @@
 			}
 			.post-s h2{
 			color : white;
-			font-size: 100%;
+			font-size: 50%;
 			border: 6px solid white;
 			padding: 20px 30px;
+			}
+			footer p{
+				font-size: 9px;
 			}
 			/*end*/
 			a{
 				text-decoration: none;
+			}
+			@media(min-width:700px){
+				.post-s h2{
+					font-size: 20px;
+				}
+				header{
+					font-size: 20px;
+					font-family: fantasy, sans-serif;
+				}
 			}
 		</style>
 		<body>
 			<div class = "post"><!--
 				<img src = "images/professional-portfolio-background-3.jpg">
 			-->
+				<header>
+					Busisile Zilwa
+				</header>
 				<div class= "post-s">
 					<a href="frontend.html"><h2>Welcome To My Portfolio</h2></a>
 				</div>
+
 			</div>
-			<footer>
-					<p>This portfolio was created by Busisile Zilwa.<p>
-					<p>A coder at CodeX.</p>
-					<p>for more information: busisile.box@gmail.com</p>
-			</footer>
 		</body>
 	</head>
 </html>
